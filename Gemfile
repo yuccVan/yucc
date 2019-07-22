@@ -39,6 +39,7 @@ gem 'qiniu-rs'
 gem 'jquery-rails','~> 4.3.1'
 gem 'sprockets'
 gem 'letter_opener'
+gem 'aasm'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76d0c731-83d3-4de2-9e5f-705d9b2f95df" name="Default" comment="" />
+    <list default="true" id="76d0c731-83d3-4de2-9e5f-705d9b2f95df" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -17,7 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="orders_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orders_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -56,8 +58,17 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
+            <state relative-caret-position="-24">
               <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="95" column="2" lean-forward="true" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -94,15 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
               <caret line="33" column="39" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/account/orders/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -144,7 +146,6 @@
         <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/common/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
         <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
@@ -171,6 +172,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -492,12 +494,12 @@
       <workItem from="1563499630840" duration="5786000" />
       <workItem from="1563515977644" duration="6000" />
       <workItem from="1563516002290" duration="5243000" />
-      <workItem from="1563755627912" duration="7860000" />
+      <workItem from="1563755627912" duration="8163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31766000" />
+    <option name="totallyTimeSpent" value="32069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="6" />
@@ -599,13 +601,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.text.erb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/welcome_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -845,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -870,6 +858,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="95" column="2" lean-forward="true" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
         </state>
       </provider>
     </entry>

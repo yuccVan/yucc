@@ -92,6 +92,17 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   config.action_controller.allow_forgery_protection = false
-  config.action_mailer.default_url_options = { host: '#' }
-  config.action_mailer.delivery_method = :letter_opener
+
+  config.action_mailer.default_url_options = { :host => 'https://ancient-ravine-56215.herokuapp.com'}
+
+  config.action_mailer.delivery_method = :smtp
+  ActionMailer::Base.smtp_settings = {
+      address: "smtpcloud.sohu.com",
+      port: 25,
+      domain: "heroku.com",
+      authentication: "login",
+      enable_starttls_auto: true,
+      user_name: ENV["yucc_test_3B1YMn"],
+      password: ENV["haeodHcItvAhj9fA"]
+   }
 end

@@ -28,12 +28,17 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 #增加
 gem 'bootstrap-sass'
+gem 'bootstrap-will_paginate','1.0.0'
 gem 'devise'
 gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'carrierwave'
 gem 'mini_magick'
-
+gem 'carrierwave-qiniu'
+gem 'qiniu-rs'
+gem 'jquery-rails','~> 4.3.1'
+gem 'sprockets'
+gem 'letter_opener'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

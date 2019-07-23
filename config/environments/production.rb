@@ -102,7 +102,7 @@ Rails.application.configure do
       domain: "heroku.com",
       authentication: "login",
       enable_starttls_auto: true,
-      user_name: "yucc6063_test_UzxbOK",
-      password: "KVUNcr9EBVBgI1C4"
+      user_name: "yucc_test_3B1YMn",
+      password: "PzuQAqVWKWEIKaQG"
    }
 end

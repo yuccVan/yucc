@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index
-    flash[:notice] = "早安！你好！"
+    today = Time.now.strftime("%Y-%m-%d %H:%M:%S")
+    flash[:notice] = today
   end
 end

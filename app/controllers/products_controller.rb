@@ -1,9 +1,19 @@
 class ProductsController < ApplicationController
   def index
     @products = Product.all
+    @today = Time.now.strftime("%H")
+    if  @today.to_i >= 6 and @today.to_i <=12
+      flash[:notice] = "早上好"
+    elsif  @today.to_i > 12 and @today.to_i <=18
+      flash[:notice] = "下午好"
+    elsif  @today.to_i > 18 and @today.to_i <6
+      flash[:notice] = "晚上好"
+    end
+
   end
   def show
     @product = Product.find(params[:id])
+
   end
   def add_to_cart
     @product = Product.find(params[:id])

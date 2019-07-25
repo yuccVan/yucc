@@ -2,11 +2,11 @@ class ProductsController < ApplicationController
   def index
     @products = Product.all
     @today = Time.now.strftime("%H")
-    if  @today.to_i >= 6 and @today.to_i <=12
+    if  @today.to_i >= 22 and @today.to_i <=4
       flash[:notice] = "早上好"
-    elsif  @today.to_i > 12 and @today.to_i <=18
+    elsif  @today.to_i > 4 and @today.to_i <=10
       flash[:notice] = "下午好"
-    elsif  @today.to_i > 18 and @today.to_i <6
+    elsif  @today.to_i > 10 and @today.to_i <22
       flash[:notice] = "晚上好"
     end
 

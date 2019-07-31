@@ -8,11 +8,17 @@ class ApplicationController < ActionController::Base
 
   def current_cart
     @current_cart ||= find_cart
+
   end
 
   private
   def find_cart
+
+    puts session[:cart_id]
     cart = Cart.find_by(id: session[:cart_id])
+
+
+
     if cart.blank?
       cart = Cart.create
     end

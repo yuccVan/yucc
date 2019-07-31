@@ -8,6 +8,7 @@ Rails.application.routes.draw do
    post :apply_to_cancel
    end
   end
+
   resources :carts do
     collection do
       delete :clean
